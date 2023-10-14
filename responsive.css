@@ -1,0 +1,245 @@
+@media (width > 768px) {
+    .section5{
+        display: flex;
+        gap: 20px ;
+    }
+    .section7::after{
+        top: 1499px;
+    }
+
+    .section4::after{
+        top: 798px;
+        margin: auto;
+    }
+
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 31.5px;
+    }
+
+    .image-11,.image-12,.image-13,.image-14,.image-15,.image-16,.image-17,.image-18,.image-19,.image-99,.image-20,.image-21{
+        width: 110px;
+        height: 100px;
+    }
+
+    .image-6{
+        display: block;
+    }
+
+    h2{
+    margin: auto;
+     width: 270px;  
+    }
+    p{
+        width: 400px;
+    }
+
+    .gio{
+        margin: auto;
+    }
+
+
+    .section3{
+        display: inline;
+
+    }
+
+    .section8 span{
+        color: violet;
+    }
+}
+
+@media(width > 1440px){
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .section2{
+        position: relative;
+        top: -300px;
+    }
+    .section3{
+        position: relative;
+        top: -280px;
+    }
+
+    h2{
+        padding-bottom: 30px;
+    }
+
+    .image-11,.image-12,.image-13,.image-14,.image-15,.image-99{
+        position: relative;
+        left: -100px;
+    }
+
+    .image-16,.image-17,.image-18,.image-19,.image-20,.image-21{
+        position: relative;
+        left: 80px;
+    }
+
+    .image-11,.image-12,.image-13,.image-14,.image-15,.image-16,.image-17,.image-18,.image-19,.image-99,.image-20,.image-21{
+        width: 140px;
+        height: 140px;
+    }
+
+    .image-13,.image-99{
+        position: relative;
+        left: -150px;
+    }
+
+    .image-14,.image-15{
+        position: relative;
+        left: -160px;
+    }
+
+    .image-16,.image-17{
+        position: relative;
+        left: 160px;
+    }
+
+    .section4::after{
+        top: 825px;
+        margin: auto;
+    }
+
+    .section7::after{
+        top: 1660px;
+    }
+
+    .image-18,.image-19{
+        position: relative;
+        left: 130px;
+    }
+
+    .image-22{
+        width: 280px;
+    }
+
+    .section8{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        padding: 100px;
+        justify-content: space-evenly;
+    }
+
+    .tittle-2{
+        width: 290px;
+        text-align: left;
+    }
+
+    .paragraph{
+        text-align: left;
+    }
+
+    .button1:hover{
+        opacity: 0.5;
+    }
+
+    .button2:hover{
+        opacity: 0.5;
+    }
+
+    .button3:hover{
+        opacity: 0.5;
+        background-color: #fff;
+    }
+
+
+}
+@media(width > 1800px){
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .section2{
+        position: relative;
+        top: -300px;
+    }
+    .section3{
+        position: relative;
+        top: -280px;
+    }
+
+    h2{
+        padding-bottom: 30px;
+    }
+
+    .image-11,.image-12,.image-13,.image-14,.image-15,.image-99{
+        position: relative;
+        left: -100px;
+    }
+
+    .image-16,.image-17,.image-18,.image-19,.image-20,.image-21{
+        position: relative;
+        left: 80px;
+    }
+
+    .image-11,.image-12,.image-13,.image-14,.image-15,.image-16,.image-17,.image-18,.image-19,.image-99,.image-20,.image-21{
+        width: 140px;
+        height: 140px;
+    }
+
+    .image-13,.image-99{
+        position: relative;
+        left: -150px;
+    }
+
+    .image-14,.image-15{
+        position: relative;
+        left: -160px;
+    }
+
+    .image-16,.image-17{
+        position: relative;
+        left: 160px;
+    }
+
+    .section4::after{
+        top: 825px;
+        margin:0 auto;
+    }
+
+    .section7::after{
+        top: 1660px;
+    }
+
+    .image-18,.image-19{
+        position: relative;
+        left: 130px;
+    }
+
+    .image-22{
+        width: 280px;
+    }
+
+    .section8{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        padding: 100px;
+        justify-content: space-evenly;
+    }
+
+    .tittle-2{
+        width: 290px;
+        text-align: left;
+    }
+
+    .paragraph{
+        text-align: left;
+    }
+
+    .button1:hover{
+        opacity: 0.5;
+    }
+
+    .button2:hover{
+        opacity: 0.5;
+    }
+
+    .button3:hover{
+        opacity: 0.5;
+    }
+}
